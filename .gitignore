@@ -132,3 +132,7 @@ secrets.json
 # LangGraph specific
 langgraph_checkpoints/
 *.db
+
+# Pipenv
+Pipfile
+Pipfile.lock
