@@ -22,7 +22,7 @@
 
 ### 1. Python環境
 - Python 3.8以上
-- Google Colab または VSCode
+- Cursor等のエディタ
 
 ### 2. 必要ライブラリのインストール
 
@@ -32,6 +32,9 @@ pip install pipenv
 
 # requirements.txtからライブラリをインストール
 pipenv install -r requirements.txt
+
+# 上記コマンドが通らない場合
+pipenv run pip install -r requirements.txt
 
 # 開発用パッケージもインストール（オプション）
 pipenv install --dev
